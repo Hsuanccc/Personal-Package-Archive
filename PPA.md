@@ -5,11 +5,12 @@ Ubuntu提供了[**Lunchpad**](https://launchpad.net/)平台, 讓軟體開發者�
 >`$sudo add-apt-repository ppa:dr-akulavich/lighttable` \
 >`$sudo apt-get update`\
 >`$sudo apt-get install lighttable-installer`
-:::info
+
+
 `sudo add-apt-repository <PPA_info>` //adds the PPA repository to the list\
 `sudo apt-get update` //updates the list of the packages that can be installed on the system\
 `sudo apt-get install <package_in_PPA>` //installs the package
-:::
+
 :::warning
  
 如果添加的是`ppa:dr-akulavich/lighttable`, 將會得到Light Table
@@ -51,8 +52,9 @@ YOUR_UBUNTU_VERSION_HERE main`\
 >`$sudo add-apt-repository --remove ppa:PPA_name/ppa`
 
 or
->`$ls /etc/apt/sources.list.d` //尋找需要刪除的PPA list
->`$sudo rm -i /etc/apt/sources.list.d/PPA_name.list` //刪除PPA
+>`$ls /etc/apt/sources.list.d` //尋找需要刪除的PPA list\
+>`$sudo rm -i /etc/apt/sources.list.d/PPA_name.list` //刪除PPA\
+
 :::info
 `PPA_name`的部分要改成欲刪除之正確的PPA name
 :::
