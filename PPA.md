@@ -27,7 +27,7 @@ YOUR_UBUNTU_VERSION_HERE main`\
 以上兩行command是將軟體repository添加到系統中的`sources.list`文件中的方法
 透過`add-apt-repository`, PPA會自動完成這些工作, 不需要考慮確切的repository URL以及OS version
 :::info
-使用PPA的話不會改變原本`source.list`的內容, 不過在/etc/apt/sources.list.d這個目錄中會多出兩個檔案:一個為OOO.list檔; 一個為有.save後綴的OOO.list.save檔
+使用PPA的話不會改變原本`source.list`的內容, 不過在/etc/apt/sources.list.d這個目錄中會多出兩個檔案:一個為OOO.list檔; 一個為有.save副檔名的OOO.list.save檔
 
 帶有 .list的文件含有添加軟體倉庫的訊息的command:
 
