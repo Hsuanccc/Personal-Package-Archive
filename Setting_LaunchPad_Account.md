@@ -9,7 +9,7 @@
 Need to generate your own GPG key, when uploading package to launchpad, launchpad will verify who upload the package, and then accept it.
 >`$gpg --gen-key` //generate new GPG key
 
-You will get similar message after sucessfully build the key :
+You will get similar message after successfully build the key :
 ```
 gpg: key <keyID> marked as ultimately trusted
 public and secret key created and signed.
@@ -27,7 +27,7 @@ key ID :  EXX5X2XXX7FXXXXX
 
 If cannot use command to sync keyID, you can directly go to [Ubuntu Keyserver](https://keyserver.ubuntu.com/) and submit public key
 > [!TIP]
-> `$gpg --armor --export email@xxx.com` //you can get your PGP pubilc key
+> `$gpg --armor --export email@xxx.com` //you can get your PGP public key
 
 Reference：[GnuPrivacyGuardHowto
 ](https://help.ubuntu.com/community/GnuPrivacyGuardHowto)
