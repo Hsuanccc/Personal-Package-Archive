@@ -6,7 +6,7 @@
 - ubuntu-dev-tools : (dependency of devscripts) The tool to make package easier.
 - apt-file : Provide a simple way to find binary package.
 ## 1.2. Generate GPG key
-Need to generate your own GPG key, when uploading package to launchpad, launchpad will verify who upload the package, and then accpet it.
+Need to generate your own GPG key, when uploading package to launchpad, launchpad will verify who upload the package, and then accept it.
 >`$gpg --gen-key` //generate new GPG key
 
 You will get similar message after sucessfully build the key :
